@@ -92,7 +92,88 @@ To install Active Directory we can start by installing Active Directory Domain S
 </p>
 <br />
 
+<img src="https://github.com/user-attachments/assets/ec717154-50ac-4e9d-b3e8-2cb6937f3bad" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/ec717154-50ac-4e9d-b3e8-2cb6937f3bad) -->
+<p>
+Next we can promote as a Domain Controller.
+</p>
+<br />
+
+<img src="https://github.com/user-attachments/assets/527913fb-cea5-4694-878c-8578da56c30e" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/527913fb-cea5-4694-878c-8578da56c30e) -->
+<p>
+Next we setup a new forest and give it any domain we would like. In this example I will name mine myadproject.com.
+</p>
+<br />
+
+<img src="https://github.com/user-attachments/assets/2794fa03-f02c-4302-ad35-cad563da2dfd" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/2794fa03-f02c-4302-ad35-cad563da2dfd) -->
+<p>
+Now we can restart and log back into DC-1 as the user: myadproject.com\labuser.
+</p>
+<br />
+
 <h2>Create an Admin and Normal User Account in AD</h2>
+
+<img src="https://github.com/user-attachments/assets/11576d7d-6faa-46c7-86c6-a401f4405783" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/11576d7d-6faa-46c7-86c6-a401f4405783) -->
+
+<img src="https://github.com/user-attachments/assets/1a8c4eaf-1dc8-471d-8415-4d2e622a52b9" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/1a8c4eaf-1dc8-471d-8415-4d2e622a52b9) -->
+
+<p>
+In Active Directory Users and Computers (ADUC) we can create an Organizational Unit called "_EMPLOYEES" and another Organizational Unit called "_ADMINS".
+</p>
+<br />
+
+<img src="https://github.com/user-attachments/assets/894fdf04-3d68-40b7-bd5c-2869eca04b52" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/894fdf04-3d68-40b7-bd5c-2869eca04b52) -->
+<p>
+We can now create a new employee named "Jane Brown" with the username of "jane_admin".
+</p>
+<br />
+
+<img src="https://github.com/user-attachments/assets/a5c5b534-b73e-4a71-92d1-13d93cacf2d6" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/a5c5b534-b73e-4a71-92d1-13d93cacf2d6) -->
+<p>
+Now we can add jane_admin to the "Domain Admins" Security Group.
+</p>
+<br />
+
+<img src="https://github.com/user-attachments/assets/4ef002a3-1016-48f8-9bb4-42c4d5dd1183" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/4ef002a3-1016-48f8-9bb4-42c4d5dd1183) -->
+<p>
+Now we can log out of the Remote Desktop connection to DC-1 and log back in as "MYACTIVEDIRECTO\jane_admin". We can use jane_admin as our account from now on.
+</p>
+<br />
+
+<img src="" height="80%" width="80%" />
+<!--  -->
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<img src="" height="80%" width="80%" />
+<!--  -->
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<img src="" height="80%" width="80%" />
+<!--  -->
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<img src="" height="80%" width="80%" />
+<!--  -->
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
 
 <img src="" height="80%" width="80%" />
 <!--  -->
