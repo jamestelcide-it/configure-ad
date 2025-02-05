@@ -147,69 +147,64 @@ Now we can log out of the Remote Desktop connection to DC-1 and log back in as "
 </p>
 <br />
 
-<img src="" height="80%" width="80%" />
-<!--  -->
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<img src="" height="80%" width="80%" />
-<!--  -->
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<img src="" height="80%" width="80%" />
-<!--  -->
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<img src="" height="80%" width="80%" />
-<!--  -->
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<img src="" height="80%" width="80%" />
-<!--  -->
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
 <h2>Join Client-1 To Your Domain</h2>
 
-<img src="" height="80%" width="80%" />
-<!--  -->
+<img src="https://github.com/user-attachments/assets/06bc12e5-d361-4270-8344-6094de08321a" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/06bc12e5-d361-4270-8344-6094de08321a) -->
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the Azure Portal, set Client-1's DNS settings to the DC's Private IP address.
+</p>
+<br />
+
+<img src="https://github.com/user-attachments/assets/0cc08b5e-0dc8-4f84-bed4-6681ae0a188b" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/0cc08b5e-0dc8-4f84-bed4-6681ae0a188b) -->
+
+<img src="https://github.com/user-attachments/assets/022f0f59-60fd-49be-ab61-eb893ddb94ed" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/022f0f59-60fd-49be-ab61-eb893ddb94ed) -->
+
+<p>
+Next from the Azure Portal, Restart Client-1. Then we can Login to Client-1 through Remote Desktop as the original local admin and join it to the domain
+</p>
+<br />
+
+<img src="https://github.com/user-attachments/assets/1895199e-c945-4fe0-84ef-a22c26b42f67" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/1895199e-c945-4fe0-84ef-a22c26b42f67) -->
+
+<img src="https://github.com/user-attachments/assets/232e3871-2454-49d7-b254-627282f24044" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/232e3871-2454-49d7-b254-627282f24044) -->
+
+<p>
+We can now login to the Domain Controller through remote desktop and verify Client-1 shows up in Active Directory Users and Computers. For better organization we will create a new Organizational Unit named "_CLIENTS" and drag Client-1 here.
 </p>
 <br />
 
 <h2>Setup Remote Desktop for Non-Administrative Users on Client-1</h2>
 
-<img src="" height="80%" width="80%" />
-<!--  -->
+<img src="https://github.com/user-attachments/assets/cf5e7bb0-3451-4996-a3dc-6e79b4ee356a" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/cf5e7bb0-3451-4996-a3dc-6e79b4ee356a) -->
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+we can log into Client-1 as jane_admin and open system properties. Then we can click "Remote Desktop", Allow "Domain Users" access to Remote Desktop, then we can log into Client-1 as a non-administrative user.
 </p>
 <br />
 
 <h2>Create Many additional Users and Attempt to Log Into Client-1 with One of the Users</h2>
 
-<img src="" height="80%" width="80%" />
-<!--  -->
+<img src="https://github.com/user-attachments/assets/4b33b298-073c-4410-874f-fe578709396d" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/4b33b298-073c-4410-874f-fe578709396d) -->
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We can log into DC-1 as jane_admin, open PowerShell_ise as an administrator. Then we create a new file and paste the contents of our script into it.
 </p>
 <br />
 
+<img src="https://github.com/user-attachments/assets/e792e5c5-7e8f-43be-a784-8f722a2524ce" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/e792e5c5-7e8f-43be-a784-8f722a2524ce) -->
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once that is complete we can open Active Directory Users and Computers and confirm the accounts have been created. We will log into Client-1 with one of the accounts below
 </p>
 <br />
+
+<img src="https://github.com/user-attachments/assets/2466e78a-4314-476e-aa5f-300c012e12d7" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/2466e78a-4314-476e-aa5f-300c012e12d7) -->
+
+<img src="https://github.com/user-attachments/assets/954f679a-6296-4370-a573-b98b813d8e1f" height="80%" width="80%" />
+<!-- ![image](https://github.com/user-attachments/assets/954f679a-6296-4370-a573-b98b813d8e1f) -->
