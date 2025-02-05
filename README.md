@@ -192,7 +192,7 @@ we can log into Client-1 as jane_admin and open system properties. Then we can c
 <img src="https://github.com/user-attachments/assets/4b33b298-073c-4410-874f-fe578709396d" height="80%" width="80%" />
 <!-- ![image](https://github.com/user-attachments/assets/4b33b298-073c-4410-874f-fe578709396d) -->
 <p>
-We can log into DC-1 as jane_admin, open PowerShell_ise as an administrator. Then we create a new file and paste the contents of our script into it.
+We can log into DC-1 as jane_admin, open PowerShell_ise as an administrator. Then we create a new file and paste the contents of our script (https://github.com/jamestelcide-it/configure-ad/blob/main/Custom%20Powershell%20Script.ps1) into it.
 </p>
 <br />
 
